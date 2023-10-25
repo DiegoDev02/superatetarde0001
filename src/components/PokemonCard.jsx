@@ -1,4 +1,6 @@
-
+import "./PokemonCard.css";
+import pokeball from "../img/pokeball.png";
+import { useState } from "react";
 
 
 

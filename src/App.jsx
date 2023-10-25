@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./App.css";
 
 import { TopBar } from "./components/TopBar";
-//import { PokeList } from "./components/PokeList";
-//import { BottomBar } from "./components/BottomBar";
+import { PokeList } from "./components/PokeList";
+import { BottomBar } from "./components/BottomBar";
 
 // Creamos nuestra función "App"
 function App() {
@@ -11,9 +11,9 @@ function App() {
   return (
     <div>
       {/* Renderizamos el componente TopBar */}
-      {/*<TopBar />*/}
-      {/*<PokeList />*/}
-      {/*<BottomBar />*/}
+      <TopBar />
+      <PokeList />
+      <BottomBar />
     </div>
   );
 }

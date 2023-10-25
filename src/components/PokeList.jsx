@@ -1,4 +1,6 @@
-
+import { useEffect,useState } from "react";
+import { PokemonCard } from "./PokemonCard";
+import "./PokeList.css";
 
 
 export function PokeList() {
